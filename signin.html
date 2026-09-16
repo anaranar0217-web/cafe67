@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+<title>signin | cafe67</title>
+<meta charset="UTF-8">
+<meta name="author" content="cafe67">
+<meta name="description" content="cafe67 тухай сайт юм.">
+<meta name="keywords" content="кафе, 67">
+<link rel="stylesheet" href="style.css" media="all">
+<link rel="stylesheet" href="style_signin.css" media="all">
+</head>
+
+<body>
+<div id="container">
+
+<div id="header">
+<h1><a href="https://www.facebook.com/cafe67heavenroad/" target="_blank">
+<img src="img/logo.png" alt="Logo"></a></h1>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Нүүр хуудас</a></li>
+<li><a href="menu.html">Санал болгох цэс</a></li>
+<li><a href="address.html">Манай байршил</a></li>
+<li><a href="mailto:s23c015b@nmct.edu.mn">Холбоо барих</a></li>
+<li><a href="signin.html">Бүртгүүлэх</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<h1>Бүртгүүлэх хуудас!</h1>
+<p>Өгөгдлөө оруулаад товчийг дарна уу!</p>
+<form action="/form.php">
+    <label for="Uname">Username:</label>
+    <input type="text" id="Uname" name="Uname"><br>
+    <label for="Pass">Password: </label>
+    <input type="password" id="Pass" name="Pass"><br><br>
+    <button type="button" onclick="btnclicked()">Бүртгүүлэх</button>
+</form>
+
+<p>Хэрэглэгчийн төрлөө сонгоно уу!</p>
+<form>
+    <input type="radio" id="User" name="User">
+    <label for="User">Энгийн хэрэглэгч</label><br>
+    <input type="radio" id="Premium" name="User">
+    <label for="Premium">Premium хэрэглэгч</label>
+</form>
+
+<form>
+    <input type="checkbox" id="Rmail" name="Rname">
+    <label for="Rmail">Мэйл хүлээн авах</label><br>
+</form>
+
+</div>
+
+<div id="footer">
+<p> Copyright © 2012 cafe67 All Rights Reserved </p>
+</div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
